@@ -10,7 +10,7 @@ const Hero = () => {
             animate={{ opacity: 1, translateY: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
           >
-            <p className="text-2xl">I'm Shawky Khalil,</p>
+            <p className="text-2xl dark:text-secondColor">I'm Shawky Khalil,</p>
           </motion.div>
           <motion.p
             className="text-5xl md:text-7xl text-mainColor uppercase font-bold"
@@ -21,7 +21,7 @@ const Hero = () => {
             web developer
           </motion.p>
           <motion.p
-            className="text-lg md:text-2xl font-light leading-10"
+            className="text-lg md:text-2xl font-light leading-10 dark:text-secondColor"
             initial={{ opacity: 0, translateY: 30 }}
             animate={{ opacity: 1, translateY: 0 }}
             transition={{ duration: 1, ease: "easeInOut", delay: 1 }}
@@ -29,7 +29,7 @@ const Hero = () => {
             I build awesome websites using the latest technologies, I’m always
             motivated to take on new projects and learn something new everyday.
           </motion.p>
-          <div className="action btns flex gap-8 justify-center lg:justify-start">
+          <div className="action btns flex gap-8 justify-center lg:justify-start text-fourthColor">
             <motion.button
               className="py-2 px-4 bg-mainColor uppercase hover:bg-thirdColor hover:text-secondColor transition-colors duration-500"
               initial={{ opacity: 0, translateY: 10 }}
